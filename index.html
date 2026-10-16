@@ -18,11 +18,9 @@
             --accent-soft: #eaf3ef;
             --warm: #f3ede2;
         }
-
         * {
             box-sizing: border-box;
         }
-
         body {
             margin: 0;
             background: var(--page);
@@ -32,19 +30,16 @@
             line-height: 1.8;
             -webkit-font-smoothing: antialiased;
         }
-
         .page-header {
             padding: 48px 24px 36px;
             background: var(--accent-soft);
             border-bottom: 1px solid #dce9e2;
         }
-
         .page-header__inner,
         .policy {
             width: min(100% - 40px, 780px);
             margin-inline: auto;
         }
-
         .page-header__label {
             display: inline-flex;
             align-items: center;
@@ -56,7 +51,6 @@
             letter-spacing: 0.08em;
             text-transform: uppercase;
         }
-
         .page-header__label::before {
             width: 8px;
             height: 8px;
@@ -64,19 +58,16 @@
             background: #d57b53;
             content: "";
         }
-
         .page-header h1 {
             margin: 0;
             font-size: clamp(30px, 5vw, 40px);
             line-height: 1.25;
         }
-
         .page-header__subtitle {
             max-width: 600px;
             margin: 12px 0 0;
             color: #53645d;
         }
-
         .policy {
             margin-top: 32px;
             margin-bottom: 56px;
@@ -86,7 +77,6 @@
             border-radius: 8px;
             box-shadow: 0 12px 32px rgb(32 43 39 / 4%);
         }
-
         .policy__meta {
             display: flex;
             flex-wrap: wrap;
@@ -97,21 +87,17 @@
             border-bottom: 1px solid var(--line);
             font-size: 14px;
         }
-
         .policy__meta strong {
             color: var(--ink);
             font-weight: 600;
         }
-
         .policy__intro {
             margin: 0 0 30px;
             color: #46534d;
         }
-
         .policy-section {
             margin-top: 28px;
         }
-
         .policy-section h2 {
             display: flex;
             align-items: baseline;
@@ -120,7 +106,6 @@
             font-size: 19px;
             line-height: 1.5;
         }
-
         .policy-section h2::before {
             width: 3px;
             height: 17px;
@@ -129,75 +114,61 @@
             border-radius: 2px;
             content: "";
         }
-
         .policy-section p {
             margin: 8px 0;
         }
-
         .policy-section ol,
         .policy-section ul {
             margin: 8px 0 0;
             padding-left: 1.5em;
         }
-
         .policy-section li {
             padding-left: 4px;
             margin: 6px 0;
         }
-
         .policy-section li::marker {
             color: var(--accent);
         }
-
         .policy-contact {
             margin-top: 32px;
             padding: 18px 20px;
             background: var(--warm);
             border-radius: 6px;
         }
-
         .policy-contact h2 {
             margin-bottom: 4px;
         }
-
         .policy-contact p {
             margin: 4px 0;
         }
-
         .policy-contact a {
             color: var(--accent);
             font-weight: 600;
             text-underline-offset: 3px;
         }
-
         .page-footer {
             padding: 0 20px 28px;
             color: var(--muted);
             text-align: center;
             font-size: 13px;
         }
-
         @media (max-width: 600px) {
             .page-header {
                 padding: 34px 20px 28px;
             }
-
             .page-header__inner,
             .policy {
                 width: min(100% - 28px, 780px);
             }
-
             .policy {
                 margin-top: 18px;
                 margin-bottom: 32px;
                 padding: 24px 20px 30px;
             }
-
             .policy__meta {
                 flex-direction: column;
                 gap: 2px;
             }
-
             .policy-section h2 {
                 font-size: 18px;
             }
@@ -212,49 +183,42 @@
             <p class="page-header__subtitle">本政策说明我们如何收集、使用、存储和保护您在使用本应用时提供的信息。</p>
         </div>
     </header>
-
     <main class="policy">
         <div class="policy__meta" aria-label="政策日期">
-            <span><strong>更新日期：</strong>2026年10月14日</span>
-            <span><strong>生效日期：</strong>2026年10月14日</span>
+            <span><strong>更新日期：</strong>2026年10月16日</span>
+            <span><strong>生效日期：</strong>2026年10月16日</span>
         </div>
-
-        <p class="policy__intro">本应用是一款面向企业用户的跨境电商数据运营工具（以下简称“本应用”）。我们深知您的数据安全与业务信息的重要性，特制定本隐私政策。请您在使用本应用前仔细阅读本政策。</p>
-
+        <p class="policy__intro">本应用是一款面向公司内部员工的经营数据看板（以下简称"本应用"）。我们深知您的数据安全与业务信息的重要性，特制定本隐私政策。请您在使用本应用前仔细阅读本政策。</p>
         <section class="policy-section">
             <h2>一、我们收集的信息</h2>
             <ol>
-                <li>账号信息：您在注册或登录时提供的邮箱、手机号、用户名及密码，以及用于身份验证的信息。</li>
-                <li>电商平台数据：在您授权并绑定后，本应用通过您授权的接口读取亚马逊、沃尔玛、速卖通、eBay 等第三方平台的经营数据，包括但不限于销售额及趋势、SKU 销售排名、库存详情、团队业绩等，用于在应用内以图表形式呈现和分析。</li>
+                <li>账号信息：您登录本应用时使用的公司分配的账号（如工号、邮箱或用户名）及身份验证信息。</li>
+                <li>业务经营数据：本应用展示的销售数据来源于公司已对接的亚马逊、沃尔玛、速卖通、eBay 等电商平台，由公司后端服务器通过合法授权的接口统一获取并同步，包括但不限于销售额及趋势、SKU 销售排名、库存详情、团队业绩等，用于在应用内以图表形式呈现。您无需在本应用内绑定或授权任何第三方平台账号。</li>
                 <li>设备与日志信息：在您使用过程中，我们可能收集设备型号、操作系统版本、IP 地址、访问时间、操作日志等，用于保障服务安全与稳定性。</li>
             </ol>
         </section>
-
         <section class="policy-section">
             <h2>二、信息的使用</h2>
             <p>我们仅将上述信息用于以下目的：</p>
             <ol>
-                <li>向您提供跨境电商数据分析、看板展示和运营决策支持等核心功能；</li>
+                <li>向您提供经营数据看板、图表展示和运营决策支持等核心功能；</li>
                 <li>保障账号安全，识别和防范异常登录与风险操作；</li>
                 <li>改进产品功能与服务体验；</li>
                 <li>履行法律法规要求的义务。</li>
             </ol>
             <p>我们不会将您的信息出售、出租或用于与本应用功能无关的目的。</p>
         </section>
-
         <section class="policy-section">
-            <h2>三、第三方平台授权</h2>
-            <p>本应用需要您在自愿授权的前提下，绑定您的亚马逊、沃尔玛、速卖通、eBay 等平台账号。相关平台的账号凭证及授权关系由您自行管理，您可随时在本应用内解除绑定。第三方平台的数据处理遵循其各自的服务条款与隐私政策。</p>
+            <h2>三、第三方平台数据说明</h2>
+            <p>本应用不要求您在应用内绑定、授权或登录亚马逊、沃尔玛、速卖通、eBay 等第三方电商平台账号。上述平台的经营数据由公司后端服务器通过平台方合法授权的接口统一获取并同步至本应用数据库，您仅通过公司分配的账号登录后查看对应权限范围内的数据。第三方平台的数据处理遵循其各自的服务条款与隐私政策。</p>
         </section>
-
         <section class="policy-section">
             <h2>四、信息的存储与保护</h2>
             <ol>
                 <li>存储：您的数据存储于符合安全标准的服务器中，我们采取加密传输、访问控制、权限隔离等技术和管理措施保护您的数据。</li>
-                <li>期限：我们仅在为您提供服务所需的期限内保存数据，超出期限或您注销账号后将按约定删除或匿名化处理。</li>
+                <li>期限：我们仅在为您提供服务所需的期限内保存数据，超出期限或您离职/账号注销后将按公司规定删除或匿名化处理。</li>
             </ol>
         </section>
-
         <section class="policy-section">
             <h2>五、信息的共享与披露</h2>
             <p>除以下情形外，我们不会向第三方共享您的信息：</p>
@@ -264,29 +228,24 @@
                 <li>法律法规要求或司法机关、行政机关依法要求时。</li>
             </ol>
         </section>
-
         <section class="policy-section">
             <h2>六、您的权利</h2>
-            <p>您有权查询、更正、删除您的个人信息，注销账号，以及撤回对电商平台数据访问的授权。您可通过下文联系方式行使上述权利。</p>
+            <p>您有权查询、更正您的个人信息。如需调整您可查看的数据范围、申请注销账号或删除相关信息，请联系公司管理员处理。您可通过下文联系方式与我们沟通。</p>
         </section>
-
         <section class="policy-section">
             <h2>七、未成年人保护</h2>
-            <p>本应用面向企业及成年运营人员，不面向未成年人提供，也不主动收集未成年人信息。</p>
+            <p>本应用面向公司成年在职员工，不面向未成年人提供，也不主动收集未成年人信息。</p>
         </section>
-
         <section class="policy-section">
             <h2>八、政策更新</h2>
             <p>我们可能适时更新本隐私政策，更新后将在本页面公布，重大变更将另行通知。</p>
         </section>
-
         <section class="policy-contact" aria-labelledby="contact-heading">
             <h2 id="contact-heading">九、联系我们</h2>
             <p>如您对本隐私政策有任何疑问、意见或建议，请通过以下方式与我们联系：</p>
             <p>邮箱：<a href="mailto:3247029981@qq.com">3247029981@qq.com</a></p>
         </section>
     </main>
-
     <footer class="page-footer">隐私政策</footer>
 </body>
 </html>
